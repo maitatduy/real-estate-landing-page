@@ -184,3 +184,25 @@ input[type="number"] {
         scroll-behavior: auto !important;
     }
 }
+
+/* Variables */
+:root {
+    --primary: #0F1B4C;
+}
+/* Common */
+.container {
+    width: 1110px;
+    max-width: calc(100% - 3.2rem);
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2.2rem;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.4rem;
+    background-color: var(--primary);
+    border-radius: 0.8rem;
+}
+/* End Common */
