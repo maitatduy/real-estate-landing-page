@@ -314,3 +314,82 @@ input[type="number"] {
     width: 100%;
 }
 /* End Hero Section */
+/* Clients Section */
+.clients {
+    padding: 12.2rem 0 4.1rem 0;
+}
+
+.clients .inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+.clients .inner-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+
+.clients .inner-top .inner-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.clients .inner-top .inner-info .inner-logo {
+    width: 10.7rem;
+    aspect-ratio: 107/24;
+}
+
+.clients .inner-top .inner-info .inner-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clients .inner-top .inner-info .inner-desc {
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7D8589;
+    font-weight: 500;
+}
+
+.clients .inner-top .inner-rating {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    align-items: flex-end;
+}
+
+.clients .inner-top .inner-rating .inner-star {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.clients .inner-top .inner-rating .inner-desc {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #7D8589;
+}
+
+.clients .inner-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients .inner-bottom img {
+    width: 20.4rem;
+    height: 9.1rem;
+    padding: 3.2rem 3.1rem 2.2rem 4.2rem;
+    object-fit: contain;
+    transition: 0.4s all ease-in;
+}
+
+.clients .inner-bottom img:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+/* End Clients Section */
