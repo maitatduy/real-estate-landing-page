@@ -261,3 +261,56 @@ input[type="number"] {
     border-radius: 0;
 }
 /* End Header */
+/* Hero Section */
+.hero {
+    background-color: #E6F0FF;
+    padding-top: 3.9rem;
+}
+.hero .inner-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0 6.7rem;
+}
+
+.hero .inner-info {
+    flex: 1;
+}
+
+.hero .inner-info .inner-sub-title {
+    color: #687690;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+.hero .inner-info .inner-title {
+    color: #000336;
+    font-size: 6.4rem;
+    font-weight: bold;
+    line-height: 1.1875;
+    margin-bottom: 3rem;
+}
+
+.hero .inner-info .inner-desc {
+    color: #5A6473;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    text-transform: capitalize;
+}
+
+.hero .inner-info .inner-action {
+    padding: 1.5rem 3.8rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 1.2rem;
+}
+
+.hero .inner-image {
+    width: 42%;
+}
+
+.hero .inner-image img {
+    width: 100%;
+}
+/* End Hero Section */
